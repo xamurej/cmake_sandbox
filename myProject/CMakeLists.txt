@@ -7,7 +7,7 @@ project(
     LANGUAGES CXX # CUDA 
 )
 
-# If this the toplevel CMakeLists.txt or is it just included
+# Check if this the toplevel CMakeLists.txt
 if(CMAKE_PROJECT_NAME STREQUAL PROJECT_NAME)
 
     # set C++11 standard
